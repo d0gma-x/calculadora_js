@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 50vh;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border: 1px solid blueviolet;
+}
+
+.display-calculator{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    border: 1px solid blue;
+    
+}
+
+.keypad-calculator{
+    display: flex;
+    width: 100%;
+}
+
+.keypad-numbers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.keypad-button{
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid red;
+}
